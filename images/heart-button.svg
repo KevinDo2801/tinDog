@@ -1,0 +1,24 @@
+<svg width="132" height="126" viewBox="0 0 132 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="heart-button">
+<g id="Ellipse 13" filter="url(#filter0_d_2_162)">
+<circle cx="65.9355" cy="55.9355" r="45.9355" fill="white"/>
+</g>
+<path id="Icon" d="M83.7138 41.1827C82.7153 40.1737 81.5297 39.3733 80.2249 38.8272C78.92 38.2811 77.5214 38 76.109 38C74.6966 38 73.298 38.2811 71.9931 38.8272C70.6882 39.3733 69.5027 40.1737 68.5042 41.1827L66.4319 43.2757L64.3596 41.1827C62.3427 39.1455 59.6072 38.0011 56.7548 38.0011C53.9025 38.0011 51.1669 39.1455 49.15 41.1827C47.1331 43.2198 46 45.9828 46 48.8637C46 51.7447 47.1331 54.5077 49.15 56.5448L51.2223 58.6379L66.4319 74L81.6415 58.6379L83.7138 56.5448C84.7128 55.5363 85.5052 54.3389 86.0459 53.0209C86.5866 51.703 86.8649 50.2903 86.8649 48.8637C86.8649 47.4371 86.5866 46.0245 86.0459 44.7066C85.5052 43.3886 84.7128 42.1912 83.7138 41.1827Z" fill="url(#paint0_linear_2_162)"/>
+</g>
+<defs>
+<filter id="filter0_d_2_162" x="0" y="0" width="131.871" height="131.871" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="10"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.914375 0 0 0 0 0.914833 0 0 0 0 0.916667 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_162"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_162" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_2_162" x1="81.1894" y1="40.1541" x2="57.4957" y2="63.6125" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00D894"/>
+<stop offset="1" stop-color="#56E9CD"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./images/logo-bar.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tinder for dogs</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- header -->
+    <header class="mag-side">
+      <img src="./images/icon-profile.png" alt="icon profile">
+      <img src="./images/logo.png" alt="">
+      <img src="./images/icon-chat.png" alt="">
+    </header>
+
+    <!-- main -->
+    <main>
+      <div class="end hidden">
+        <p>Sorry! There are no more dogs in your area</p>
+        <button class="reset" data-btn="reset">Reset</button>
+        <button class="rewatch" data-btn="rewatch">Rewatch</button>
+      </div>
+      <div id="image"></div> 
+      <div id="badge"></div>
+    </main>
+
+    <!-- footer -->
+    <footer class="mag-side">
+      <div class="circle icon-left" data-img="left">
+        <i class="fa fa-arrow-left" data-img="left"></i>
+      </div>
+      <div class="circle icon-cross" data-img="cross">
+        <img src="./images/icon-cross.png" data-img="cross" alt="">
+      </div>
+      <div class="circle icon-redo" data-img="redo">
+        <i class="fa fa-redo-alt" data-img="redo"></i>
+      </div>
+      <div class="circle icon-heart" data-img="heart">
+        <img src="./images/icon-heart.png" data-img="heart" alt="">
+      </div>
+      <div class="circle icon-right" data-img="right">
+        <i class="fa fa-arrow-right" data-img="right"></i>
+      </div>
+    </footer>
+  </div>
+
+  <!-- js -->
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
